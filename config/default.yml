@@ -1,0 +1,14 @@
+database:
+  url: mongodb://mongodb:27017/movies
+  databaseName: movies
+
+jwt:
+  secret: "12345"
+  accessExpirationMinutes: 30
+  refreshExpirationDays: 20
+
+admin:
+  password: 01admin*
+
+env: localhost
+port: 3000
